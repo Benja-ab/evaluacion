@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomendaciones de Novelas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg custom-navbar fixed-top"  data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Novelas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#generos">Géneros</a></li>
+        <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sitios">Sitios de Lectura</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <header id="inicio" class="text-center p-5">
+    <h1 class="display-4 fw-bold">Web de Recomendación de Novelas y Libros</h1>
+    <p class="lead">Encuentra tus próximas lecturas favoritas</p>
+  </header>
+
+<div id="carouselExampleCaptions" class="carousel slide novelca" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Novela 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Novela 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Novela 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Novela 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Novela 5"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <a href="https://elcoleccionistadenovelas.wordpress.com/2020/03/26/el-legendario-escultor-de-la-luz-lunar/" target="_blank">
+        <img src="img/El-Legendario-Escultor-de-la-Luz-Lunar.webp" alt="Novela 1">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>El Legendario Escultor de la Luz Lunar</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://www.webnovel.com/es/book/30035570000830605" target="_blank">
+        <img src="img/lector omnisciente.jpg" alt="Novela 2">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Omniscient Reader's Viewpoint</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://elcoleccionistadenovelas.wordpress.com/2018/05/15/desolate-era/" target="_blank">
+        <img src="img/desolate-era.jpg" alt="Novela 3">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Desolate Era</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://www.wuxiaworld.com/novel/above-your-head" target="_blank">
+        <img src="img/ayh.jpg" alt="Novela 4">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Above Your Head</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://novelaenespanol.com/warlock-of-the-magus-world/novela-ligera/warlock-of-the-magus-world/" target="_blank">
+        <img src="img/wmw.webp" alt="Novela 5">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Warlock of the Magus World</h5>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<div class="container my-5" id="generos">
+  <h2 class="text-center mb-4 text-info">Género Wuxia</h2>
+  <div class="row fila-novelas">
+    
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/atg.webp" class="card-img-top img-novela" alt="Wuxia 1">
+        <div class="card-body">
+          <h5 class="card-title">Against the Gods</h5>
+          <p class="card-text">Perseguido por poseer un objeto que desafía al cielo, Yun Che es un joven tanto en esta vida como en la siguiente. Tras arrojarse por un acantilado para vengarse de sus perseguidores, Yun Che reencarna como Xiao Che, un adolescente recientemente envenenado en otro reino. Tan odiado en esta vida como en la anterior, Che debe superar a su clan hostil, su propia incapacidad para cultivar y a su fría prometida.</p>
+          <a href="https://www.wuxiaworld.com/novel/against-the-gods" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/emperor.webp" class="card-img-top img-novela" alt="Wuxia 2">
+        <div class="card-body">
+          <h5 class="card-title">Emperor Domination</h5>
+          <p class="card-text">Un chico que estuvo prisionero durante millones de años recuperó su cuerpo mortal. Se convirtió en discípulo de la decadente Secta Antigua del Incienso Purificador, cuyo patriarca solía ser su discípulo. Ahora, devolverá a esta secta a su antigua gloria. Este es su viaje para alcanzar la cima y vengarse de quienes lo aprisionaron. Esta es su historia de reencuentro con viejos amigos y nuevas amistades. Este es su camino atravesando los Nueve Mundos y convirtiéndose en el próximo gobernante de los Cielos.</p>
+          <a href="https://www.wuxiaworld.com/novel/emperors-domination" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/i will eternal.jpg" class="card-img-top img-novela" alt="Wuxia 3">
+        <div class="card-body">
+          <h5 class="card-title">A Will Eternal</h5>
+          <p class="card-text">A Will Eternal cuenta la historia de Bai Xiaochun, un joven entrañable pero exasperante motivado principalmente por su miedo a la muerte y su deseo de vivir para siempre, pero que valora profundamente la amistad y la familia.</p>
+          <a href="https://www.webnovel.com/es/book/8093963805004105" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/cilingdragon.webp" class="card-img-top img-novela" alt="Wuxia 4">
+        <div class="card-body">
+          <h5 class="card-title">Coiling Dragon</h5>
+          <p class="card-text">En el continente de Yulan, los imperios surgen y caen. Santos, seres inmortales de poder inimaginable, luchan con hechizos y espadas, dejando a su paso una estela de destrucción. Bestias mágicas dominan las montañas, donde los valientes —o los insensatos— ponen a prueba su fuerza. Incluso los poderosos pueden caer, devorados por los más fuertes. Los fuertes viven como la realeza; los débiles luchan por sobrevivir un día más.</p>
+          <a href="https://www.wuxiaworld.com/novel/emperors-domination" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4 text-info">Género Comedia</h2>
+  <div class="row fila-novelas">
+    
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/konosuba.jpg" class="card-img-top img-novela" alt="Comedia 1">
+        <div class="card-body">
+          <h5 class="card-title">KonoSuba</h5>
+          <p class="card-text">La vida de Kazuma Sato, un joven estudiante japonés aficionado a los videojuegos y solitario, llega a un abrupto final... o al menos eso se suponía. Al abrir los ojos, descubre a una hermosa diosa que le ofrece una oportunidad única en la vida: renacer en un mundo paralelo. El problema es que este mundo es violento y está amenazado por un mal creciente.</p>
+          <a href="#" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/sff.webp" class="card-img-top img-novela" alt="Comedia 2">
+        <div class="card-body">
+          <h5 class="card-title">Stop, Friendly Fire!</h5>
+          <p class="card-text">El imperio se ha vuelto la tierra de los No-Muertos debido a que un hechizo salió mal. Dios convocó a héroes de incontables mundos para purificar el Imperio y plantar nueva esperanza. Lee Shin Woo, un terrícola ordinario, también fue convocado; como un no muerto, claro está.</p>
+          <a href="https://nextnovels.com/stop-friendly-fire-novela-web-en-espanol/" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/civl.jpg" class="card-img-top img-novela" alt="Comedia 3">
+        <div class="card-body">
+          <h5 class="card-title">Mi vida de funcionario renace en un mundo extraño</h5>
+          <p class="card-text">Iba de camino a comprar cerveza para celebrar su ingreso como funcionario público cuando, de repente, Truck-kun lo transportó a otro mundo. Reencarnado como Denburg Blade, hijo de un legendario jefe de una raza de guerreros, capturó demonios a los 8 años y un dragón a los 12. Sometido al entrenamiento espartano de su musculoso padre, su vida diaria era inhumana. </p>
+          <a href="https://www.skynovels.net/novelas/483/mi-vida-de-funcionario-renace-en-un-mundo-extrano" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card tarjeta-novela">
+        <img src="img/Child_of_Light_-_Novel.webp" class="card-img-top img-novela" alt="Comedia 4">
+        <div class="card-body">
+          <h5 class="card-title">Child of Light</h5>
+          <p class="card-text">Zhang Gong decide aprender magia de luz, una magia que despierta poco interés, y finalmente se convierte en el legendario Gran Magister. Mientras intenta acabar con la división entre el este y el oeste del continente para unir a todas las razas, se convierte en el Hijo de la Luz de cada una de ellas.</p>
+          <a href="https://www.webnovel.com/book/8094106605004805" class="btn btn-outline-info">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container my-5" id="sitios">
+  <h2 class="text-center mb-4 text-info">Mis Sitios Favoritos</h2>
+  <div class="row justify-content-center">
+    
+    <div class="col-md-5">
+      <div class="navegacion-sitios">
+        <a href="https://www.wuxiaworld.com/" target="_blank" class="enlace-sitio">WuxiaWorld (Leer Novelas)</a>
+        <a href="https://www.webnovel.com/" target="_blank" class="enlace-sitio">WebNovel (Comunidad)</a>
+        <a href="https://novelupdates.com/" target="_blank" class="enlace-sitio">Novel Updates (Noticias)</a>
+        <a href="https://lightnovelpub.com/" target="_blank" class="enlace-sitio">Light Novel Pub (Biblioteca)</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
